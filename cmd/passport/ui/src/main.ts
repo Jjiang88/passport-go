@@ -12,7 +12,7 @@ import mitt from 'mitt';
 import screenShort from 'vue-web-screen-shot';
 import VueGridLayout from 'vue-grid-layout';
 import echarts from './utils/echarts';
-document.domain="thingple.io"
+
 const app = createApp(App);
 // @ts-ignore
 app
