@@ -15,7 +15,7 @@ import { login } from '/@/utils/passport';
  * @link 参考：https://next.router.vuejs.org/zh/api/#createrouter
  */
 const router = createRouter({
-	history: createWebHistory(),
+	history: createWebHashHistory(),
 	routes: staticRoutes,
 });
 

@@ -126,8 +126,9 @@ function refreshCode () {
   return openUrl;
 }
 function getUrl(){
+  console.log(route.query.url)
   if(route.query.url===""||route.query.url===undefined){
-    state.originUrl="https://sg.thingplecloud.com/profile"//默认返回地址
+    state.originUrl="https://sg.thingplecloud.com/sg-profile"//默认返回地址
     Local.remove('token')
     // ElMessage.error("路径错误")
   }else{

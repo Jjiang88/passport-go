@@ -1,6 +1,6 @@
 import { Local } from '/@/utils/storage';
-const passportLogoutUrl = "https://sg.thingplecloud.com/pp"
-const passportLoginUrl = "https://sg.thingplecloud.com/pp"
+const passportLogoutUrl = "https://sg.thingplecloud.com/sg-pp/#/login/"
+const passportLoginUrl = "https://sg.thingplecloud.com/sg-pp/#/login/"
 
 function genUrl(url: string, path: string) {
   return url + "?url=" + path
